@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+   
+</head>
+<body>
+    <div class="todo-project">
+        <h1>todo list</h1>
+        <form class="top">
+            <div class="input">
+            <input type="text" class="inputText">
+            <button class="inputbutton"> <i class="fas fa-plus"></i> </button>
+            </div>
+            <select name="selectList" id="selectList" class="selectFilter">
+                <option value="all">all</option>
+                <option value="completed">completed</option>
+                <option value="uncompleted">uncompleted</option>
+            </select>
+        </form>
+        <ul class="listText"></ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
